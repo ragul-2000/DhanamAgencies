@@ -118,6 +118,13 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #ffffff;
+    margin-right: 10px; /* Move margin-right to the 'a' element */
+}
+
+/* Add hover styles for better user experience */
+nav ul li a:hover {
+    color: #22ddca; /* Change to your desired text color on hover */
+    background-color: #3d3939; /* Change to your desired background color on hover */
 }
 
 /* Section Styles */
