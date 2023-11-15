@@ -58,7 +58,7 @@ h5 {
     border-width: 1px;
     background-color: black;
     border-color: rgb(219, 208, 243);
-    width: 500px;
+    width: 300px;
     margin: 0 auto; /* Center horizontally */
     text-align: center;
 }
@@ -87,10 +87,12 @@ header {
 
 .nav-pills .nav-link {
     color: #1481a9; /* Change to your desired text color */
-    background-color: #1c2020; /* Change to your desired background color */
+    background-color: #252a2a; /* Change to your desired background color */
     border-radius: 50px; /* Optional: Add rounded corners */
-    margin-right: 10px; /* Optional: Adjust spacing between links */
-    font-weight:500
+    margin-right: 8px; /* Optional: Adjust spacing between links */
+    font-weight:500;
+    padding: auto;
+    display: flex;
 }
 
 /* Add hover styles for better user experience */
