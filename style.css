@@ -24,7 +24,7 @@ header h1 {
 
 
 #image1 {
-    display: flexbox;
+    display: flex;
     display: block; /* Ensure it's a block-level element */
     margin: 0 auto; /* Center-align horizontally */
     height: 10%;
@@ -305,20 +305,23 @@ background: linear-gradient(90deg, rgba(21,9,47,0.9781162464985994) 2%, rgba(1,2
     }
     .nav-pills {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         justify-content: center;
         padding-bottom: 0;
     }
+    .nav ul li {
+        margin-right: 5px; /* Adjust the margin as needed for mobile view */
+    }
 
+    .nav ul li a {
+        padding: 0.5rem 0.8rem; /* Adjust the padding for better spacing on mobile view */
+    }
     .nav-item {
         margin-bottom: 0;
     }
 
     .nav-link {
         padding: 0.5rem 1rem;
-    }
-    nav ul li {
-        margin-right: 10px;
     }
 
     .section {
