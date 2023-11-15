@@ -295,7 +295,6 @@ background: linear-gradient(90deg, rgba(21,9,47,0.9781162464985994) 2%, rgba(1,2
     }
 }
 
- 
 /* Responsive Styles (Example: Mobile-First) */
 @media (max-width: 768px) {
     header h1 {
@@ -304,7 +303,20 @@ background: linear-gradient(90deg, rgba(21,9,47,0.9781162464985994) 2%, rgba(1,2
         font-weight: bold;
         font-style: oblique;
     }
+    .nav-pills {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 0;
+    }
 
+    .nav-item {
+        margin-bottom: 0;
+    }
+
+    .nav-link {
+        padding: 0.5rem 1rem;
+    }
     nav ul li {
         margin-right: 10px;
     }
