@@ -1,0 +1,296 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+#carouselExampleIndicators {
+    text-align: center; /* Center-align the contents of the carousel */
+}
+
+
+#image1 {
+    display: flexbox;
+    display: block; /* Ensure it's a block-level element */
+    margin: 0 auto; /* Center-align horizontally */
+    height: 10%;
+    width: 100%; /* Set the fixed height for the carousel images */
+    object-fit:cover; /* Ensure the images cover the fixed height */
+}
+#image2 {
+    display: block; /* Ensure it's a block-level element */
+    max-height: 50%; /* Set the maximum height to 100% of the parent container */
+    max-width: 100%; /* Set the maximum width to 100% of the parent container */
+    margin: 0 auto; /* Center-align horizontally */
+    object-fit: cover; /* Ensure the images cover the fixed height */
+    background-color: #1c2020;
+}
+
+#image3 {
+    display: block; /* Ensure it's a block-level element */
+    margin: 0 auto; /* Center-align horizontally */
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: cover; /* Ensure the images cover the fixed height */
+    background-color: #1c2020;
+}
+
+h5 {
+    border: 3px solid #ffffffe9;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    border-width: 1px;
+    background-color: black;
+    border-color: rgb(219, 208, 243);
+    width: 500px;
+    margin: 0 auto; /* Center horizontally */
+    text-align: center;
+}
+
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    background: rgb(59,10,65);
+    background: linear-gradient(90deg, rgba(59,10,65,0.9781162464985994) 0%, rgba(55,10,102,1) 17%, rgba(27,37,81,1) 38%, rgba(0,0,0,1) 69%, rgba(35,15,56,1) 100%);
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+
+.nav-pills .nav-link {
+    color: #1481a9; /* Change to your desired text color */
+    background-color: #1c2020; /* Change to your desired background color */
+    border-radius: 50px; /* Optional: Add rounded corners */
+    margin-right: 10px; /* Optional: Adjust spacing between links */
+    font-weight:500
+}
+
+/* Add hover styles for better user experience */
+.nav-pills .nav-link:hover {
+    color: #22ddca; /* Change to your desired text color on hover */
+    background-color: #3d3939; /* Change to your desired background color on hover */
+}
+
+header h1 {
+    font-size: 36px;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+}
+
+.section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Product Styles */
+.product {
+    margin-bottom: 40px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+/* Footer Styles */
+footer {
+    background: rgb(59, 10, 65);
+    background: linear-gradient(90deg, rgba(59, 10, 65, 0.9781162464985994) 0%, rgba(27, 22, 28, 1) 0%, rgba(22, 16, 75, 1) 17%, rgba(24, 27, 89, 1) 26%, rgba(23, 25, 90, 1) 27%, rgba(25, 16, 73, 1) 37%, rgba(37, 29, 63, 1) 71%, rgba(35, 15, 56, 1) 100%);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-section {
+    margin-top: 1opx;
+    margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: 400;
+    font-style: oblique ;
+}
+
+.col-md-4 h4,
+.col-md-4 p {
+    margin-bottom: 10px; /* Adjust the margin as needed */
+}
+
+.list-unstyled li {
+    margin-bottom: 5px; /* Adjust the margin as needed */
+}
+
+.col-md-12 {
+    background-color: black;
+    padding: 5px; /* Add padding for better appearance */
+    color: white;
+    border: 0.5rem solid rgb(255, 253, 253);
+    border-width: 1px;
+    border-color: #fff;
+    width: 100px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center horizontally */
+    text-align: center;
+}
+
+.col-md-4{
+    background: rgb(21,9,47);
+background: linear-gradient(90deg, rgba(21,9,47,0.9781162464985994) 2%, rgba(25,15,114,1) 14%, rgba(39,7,63,1) 25%, rgba(25,3,36,1) 35%, rgba(12,12,46,1) 51%, rgba(21,8,39,1) 64%, rgba(5,5,46,1) 77%, rgba(14,27,47,1) 84%, rgba(39,3,77,1) 100%);
+
+}
+
+.col-md-4 h4{
+    background: rgb(21,9,47);
+background: linear-gradient(90deg, rgba(21,9,47,0.9781162464985994) 2%, rgba(1,2,3,1) 14%, rgba(8,5,28,1) 25%, rgba(9,14,14,1) 36%, rgba(30,32,37,1) 51%, rgba(29,37,51,1) 64%, rgba(27,33,49,1) 75%, rgba(9,30,30,1) 100%);
+    border: 2px solid rgb(73, 69, 69);
+    border-radius: 10px;
+    padding: auto;
+    text-align: center;
+    color: #6393ee;
+
+}
+
+.list-unstyled li:hover {
+    padding: 2px; /* Adjust the value as needed */
+    color: aquamarine !important; /* Add !important to override other styles */
+    background-color:rgb(24, 26, 26)/* Add a background color to highlight the hover effect */
+}
+
+.container1 h2 {
+    font-size: 25px;
+    color: #221d1d;
+    font-weight: 700;
+    width: 320px;
+    background: rgb(35, 85, 86);
+    background: linear-gradient(0deg, rgba(46,139,141,1) 2%, rgba(7,165,206,1) 37%, rgba(8,220,207,1) 100%);
+    margin: 0 auto; /* Center the element horizontally */
+    text-align: center; /* Center the text within the element */
+    padding: 10px; /* Optional: Add padding for better appearance */
+}
+
+/* Add this CSS for video container and responsive adjustments */
+.row-video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+.video-container {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+    border: 10px solid #121111; /* Add border to the video container */
+    border-radius: 10px; /* Add border radius for rounded corners */
+    overflow: hidden; /* Hide any overflowing content within the container */
+    align-items: center;
+    align-content: center;
+}
+
+/* Adjust the width of each video container to leave space between them */
+@media (min-width: 800px) {
+    .video-container {
+        width: calc(60% - 30px); /* Adjust the width as needed, accounting for the margin */
+    }
+}
+/* Add this CSS for responsive embeds */
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.embed-responsive::before {
+    display: block;
+    content: "";
+}
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive iframe,
+.embed-responsive embed,
+.embed-responsive object,
+.embed-responsive video {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* Adjustments for mobile view */
+@media (max-width: 768px) {
+    .video-container {
+        width: 100%; /* Adjust the width for full-width on smaller screens */
+    }
+}
+
+ 
+/* Responsive Styles (Example: Mobile-First) */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-style: oblique;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    .section {
+        padding: 30px 0;
+    }
+
+    .section h2 {
+        font-size: 24px;
+    }
+
+    .product h3 {
+        font-size: 18px;
+    }
+}
