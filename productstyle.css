@@ -45,7 +45,7 @@ body {
 
 /* Style individual product items */
 .product {
-    flex: 0 0 calc(50% - 20px); /* Two products in a row with spacing, adjusted for smaller screens */
+    flex: 0 0 calc(33.33% - 20px); /* Three products in a row with spacing */
     margin: 10px;
     padding: 15px;
     background-color: #1a1a1a;
@@ -63,19 +63,13 @@ body {
     transition: transform 0.2s ease-in-out;
 }
 
-.quantity-input {
-    font-size: 11px;
-    height: 20px;
-    width: 140px;
-}
-/* Ensure consistent margins for product titles */
+/* Style product titles */
 .product h3 {
     font-size: 1.5rem;
     padding: 0%;
-    margin: 10px 0; /* Adjusted margin for better alignment */
-    color: rgb(255, 255, 255);
+    margin: 30px 30px 30px;
+    color:rgb(255, 255, 255)
 }
-
 
 /* Style product descriptions */
 .total-price {
@@ -122,20 +116,4 @@ footer {
     padding: 10px;
     bottom: 0;
     width: 100%;
-}
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 50px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        font-style: oblique;
-    }
-    
-}
-
-@media (min-width: 800px) {
-    .video-container {
-        width: calc(60% - 30px);
-    }
-
 }
