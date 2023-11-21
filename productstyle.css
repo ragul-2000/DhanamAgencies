@@ -129,13 +129,13 @@ footer {
 
     /* Adjust individual product items for smaller screens */
     .product {
-        flex: 0 0 100%;
+        flex: 0 0 calc(100% - 20px);
         margin: 10px 0;
     }
 
-    /* Set a maximum width for the product images on smaller screens */
+    /* Keep the original size of the product images on smaller screens */
     .product img {
-        max-width: 80%; /* Adjust this value as needed */
+        max-width: 100%;
     }
 }
 
