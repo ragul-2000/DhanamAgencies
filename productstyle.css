@@ -118,12 +118,13 @@ footer {
     width: 100%;
 }
 
-
+/* Responsive Styles for Smaller Screens */
 @media only screen and (max-width: 767px) {
+    /* Adjust product rows for smaller screens */
     .product-row {
         flex-direction: column;
         align-items: center;
-        margin: 20px 20px;
+        margin: 20px 0;
     }
 
     /* Adjust individual product items for smaller screens */
@@ -131,4 +132,10 @@ footer {
         flex: 0 0 100%;
         margin: 10px 0;
     }
+
+    /* Set a maximum width for the product images on smaller screens */
+    .product img {
+        max-width: 80%; /* Adjust this value as needed */
+    }
 }
+
