@@ -117,3 +117,18 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .product-row {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+    }
+
+    /* Adjust individual product items for smaller screens */
+    .product {
+        flex: 0 0 100%;
+        margin: 10px 0;
+    }
+}
