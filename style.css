@@ -86,6 +86,9 @@ header {
 
 
 .nav-pills .nav-link {
+    display: flex;
+    position: relative;
+    align-content: center;
     color: #1481a9; /* Change to your desired text color */
     background-color: #252a2a; /* Change to your desired background color */
     border-radius: 50px; /* Optional: Add rounded corners */
